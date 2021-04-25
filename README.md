@@ -8,14 +8,17 @@ In such case, we train the model with first 80% of the data. test it with the 20
 # Project Goals and Progress -
 
 The main goal is to make a time forecasting project that include 2 time forecasting strategies. For now, ARIMA is included in the project and working on including LSTMs. 
-This project will be open for contributions. Meaning users can upload their own model in a single .py file to git, make changes to the code in main.py and get the results. 
+This project will be open for contributions. Meaning users can upload their own model in a single .py file to git, make changes to the code in main.py and get the results. The whole code is put in github.com and I encourage everyone to download, contribute and make better versions.
+
+github link - https://github.com/8-bit-owl/Not_a_StockPredcitor.git
+
 
 # Running the Code - 
 
 For running the code, we need to run main.py. It has all the code flow as per current build. For now, only ARIMA algorithm has been implemented and the present goal is to work in integrating LSTM models into the code. Steps to be followes for running the code - 
 1. cmd -> python main.py
 2. It will ask you to provide the stock file. provide the file path, including the path\filename.csv
-3. It will ask you to selece the algorithm. Choose ARIMA, by pressing 1.
+3. It will ask you to select the algorithm. Choose ARIMA, by pressing 1 and hit Enter.
 4. It will give you plots and also future prediction. 
 
 # Unit Testing -
